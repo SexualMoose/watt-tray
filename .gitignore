@@ -1,0 +1,21 @@
+# User-specific config (machine-tuned; ship config.example.json instead)
+config.json
+
+# Logs
+*.log
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Third-party binaries (download per README)
+*.dll
+*.exe
+*.pdb
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp

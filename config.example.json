@@ -1,0 +1,36 @@
+{
+  "update_interval_sec": 10,
+  "sample_interval_sec": 1,
+  "rolling_window_samples": 10,
+  "reenumerate_interval_sec": 300,
+  "icon_size_px": 64,
+  "icon_bg": "#FFFFFF",
+  "icon_fg": "#000000",
+  "font_family": "segoeui.ttf",
+  "font_max_pt": 36,
+  "font_min_pt": 14,
+  "static": {
+    "ram": {
+      "auto_detect": true,
+      "max_w_per_stick_ddr4": 6.0,
+      "max_w_per_stick_ddr5": 9.0,
+      "fallback_w_per_stick": 6.0,
+      "fallback_stick_count": 4
+    },
+    "motherboard_w": 50.0,
+    "ssd_w_each": 5.0,
+    "ssd_count": 8,
+    "fan_w_each": 2.0,
+    "fan_count": 6
+  },
+  "cpu_estimate": {
+    "enabled": true,
+    "idle_w": 30.0,
+    "max_w": 145.0,
+    "use_when_sensor_below_w": 1.0
+  },
+  "sensor_priority": {
+    "cpu": ["CPU Package", "Package"],
+    "gpu": ["GPU Total", "GPU Package", "GPU Power"]
+  }
+}
